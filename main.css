@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Klee+One:wght@600&family=Lilita+One&display=swap');
+
+body{
+    background-color: aqua;
+}
+
+p{
+    color: red;
+}
+
+h1, h2, h3{
+    color: green;
+}
+
+h2{
+    text-align: center;
+}
+/* we use * as a wildcard and this will change everything however typically selectors normally overtwrite and since ccs works from top to bottom this will also overwrite the wildcard */
+
+#pagetop{
+    font-family: "Black Ops One";
+}
+
+.text{
+    font-family: "Klee One";
+}
+
+a:visited {
+    color: #f049be;
+}
